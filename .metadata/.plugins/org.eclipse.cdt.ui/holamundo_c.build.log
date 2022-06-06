@@ -1,0 +1,7 @@
+21:18:15 **** Rebuild of configuration Debug for project holamundo_c ****
+Info: Internal Builder is used for build
+sparc-elf-gcc -O0 -g3 -Wall -msoft-float -c -fmessage-length=0 -o main.o ../main.c 
+sparc-elf-gcc -msoft-float -o holamundo_c main.o 
+
+21:18:16 Build Finished (took 754ms)
+

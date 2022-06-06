@@ -1,0 +1,14 @@
+18:27:30 **** Rebuild of configuration Debug for project prac2 ****
+Info: Internal Builder is used for build
+sparc-elf-gcc -I/home/bryan/workspace/prac2/include -O0 -g3 -Wall -msoft-float -c -fmessage-length=0 -o source/leon3_uart.o ../source/leon3_uart.c 
+../source/leon3_uart.c:29: warning: initialization makes pointer from integer without a cast
+sparc-elf-gcc -I/home/bryan/workspace/prac2/include -O0 -g3 -Wall -msoft-float -c -fmessage-length=0 -o source/main.o ../source/main.c 
+sparc-elf-gcc -I/home/bryan/workspace/prac2/include -O0 -g3 -Wall -msoft-float -c -fmessage-length=0 -o source/leon3_bprint.o ../source/leon3_bprint.c 
+../source/leon3_bprint.c: In function 'leon3_print_string':
+../source/leon3_bprint.c:11: warning: implicit declaration of function 'leon3_putchar'
+../source/leon3_bprint.c: In function 'leon3_print_uint8':
+../source/leon3_bprint.c:70: warning: control reaches end of non-void function
+sparc-elf-gcc -msoft-float -o prac2 source/main.o source/leon3_uart.o source/leon3_bprint.o 
+
+18:27:31 Build Finished (took 1s.395ms)
+

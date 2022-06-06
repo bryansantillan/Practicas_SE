@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.config.rcc.exe.debug.532437978">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.rcc.exe.debug.532437978" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.rcc.exe.debug.532437978" name="Debug" parent="cdt.managedbuild.config.rcc.exe.debug">
+					<folderInfo id="cdt.managedbuild.config.rcc.exe.debug.532437978." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.rcc.exe.debug.1055291813" name="SPARC RTEMS" superClass="cdt.managedbuild.toolchain.rcc.exe.debug">
+							<targetPlatform id="cdt.managedbuild.target.rcc.platform.exe.debug.730567253" name="Debug Platform" superClass="cdt.managedbuild.target.rcc.platform.exe.debug"/>
+							<builder buildPath="${workspace_loc:/prac5_2}/Debug" id="cdt.managedbuild.target.rcc.builder.exe.debug.1140753502" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="RTEMS Make" superClass="cdt.managedbuild.target.rcc.builder.exe.debug"/>
+							<tool id="cdt.managedbuild.tool.rcc.archiver.base.1341743108" name="SPARC RTEMS C Archiver" superClass="cdt.managedbuild.tool.rcc.archiver.base"/>
+							<tool id="cdt.managedbuild.tool.rcc.cpp.compiler.exe.debug.1013544273" name="SPARC RTEMS C++ Compiler" superClass="cdt.managedbuild.tool.rcc.cpp.compiler.exe.debug">
+								<option id="rcc.cpp.compiler.exe.debug.option.optimization.level.1872162711" name="Optimization Level" superClass="rcc.cpp.compiler.exe.debug.option.optimization.level" value="bcc.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="rcc.cpp.compiler.exe.debug.option.debugging.level.273224690" name="Debug Level" superClass="rcc.cpp.compiler.exe.debug.option.debugging.level" value="bcc.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.rcc.c.compiler.exe.debug.471065559" name="SPARC RTEMS C Compiler" superClass="cdt.managedbuild.tool.rcc.c.compiler.exe.debug">
+								<option defaultValue="bcc.c.optimization.level.none" id="rcc.c.compiler.exe.debug.option.optimization.level.426697666" name="Optimization Level" superClass="rcc.c.compiler.exe.debug.option.optimization.level" valueType="enumerated"/>
+								<option id="rcc.c.compiler.exe.debug.option.debugging.level.1037639402" name="Debug Level" superClass="rcc.c.compiler.exe.debug.option.debugging.level" value="bcc.c.debugging.level.max" valueType="enumerated"/>
+								<option id="bcc.c.compiler.option.include.paths.740568652" name="Include paths (-I)" superClass="bcc.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/opt/rtems-4.6/sparc-rtems/leon3/lib/include"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.base.c.compiler.input.c.159352318" superClass="cdt.managedbuild.tool.base.c.compiler.input.c"/>
+								<inputType id="cdt.managedbuild.tool.base.c.compiler.input.asm.1998722146" superClass="cdt.managedbuild.tool.base.c.compiler.input.asm"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.rcc.c.linker.exe.debug.362870305" name="SPARC RTEMS C Linker" superClass="cdt.managedbuild.tool.rcc.c.linker.exe.debug">
+								<inputType id="cdt.managedbuild.tool.base.c.linker.input.1178626967" superClass="cdt.managedbuild.tool.base.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.rcc.cpp.linker.exe.debug.1114805105" name="SPARC RTEMS C++ Linker" superClass="cdt.managedbuild.tool.rcc.cpp.linker.exe.debug"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.rcc.exe.release.780507320">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.rcc.exe.release.780507320" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.rcc.exe.release.780507320" name="Release" parent="cdt.managedbuild.config.rcc.exe.release">
+					<folderInfo id="cdt.managedbuild.config.rcc.exe.release.780507320." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.rcc.exe.release.1638927522" name="SPARC RTEMS" superClass="cdt.managedbuild.toolchain.rcc.exe.release">
+							<targetPlatform id="cdt.managedbuild.target.rcc.platform.exe.release.1931145279" name="Debug Platform" superClass="cdt.managedbuild.target.rcc.platform.exe.release"/>
+							<builder buildPath="${workspace_loc:/prac5_2}/Release" id="cdt.managedbuild.target.rcc.builder.exe.release.791800163" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="RTEMS Make" superClass="cdt.managedbuild.target.rcc.builder.exe.release"/>
+							<tool id="cdt.managedbuild.tool.rcc.archiver.base.305646371" name="SPARC RTEMS C Archiver" superClass="cdt.managedbuild.tool.rcc.archiver.base"/>
+							<tool id="cdt.managedbuild.tool.rcc.cpp.compiler.exe.release.566186979" name="SPARC RTEMS C++ Compiler" superClass="cdt.managedbuild.tool.rcc.cpp.compiler.exe.release">
+								<option id="rcc.cpp.compiler.exe.release.option.optimization.level.362831147" name="Optimization Level" superClass="rcc.cpp.compiler.exe.release.option.optimization.level" value="bcc.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="rcc.cpp.compiler.exe.release.option.debugging.level.2067585141" name="Debug Level" superClass="rcc.cpp.compiler.exe.release.option.debugging.level" value="bcc.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.rcc.c.compiler.exe.release.1301592907" name="SPARC RTEMS C Compiler" superClass="cdt.managedbuild.tool.rcc.c.compiler.exe.release">
+								<option defaultValue="bcc.c.optimization.level.most" id="rcc.c.compiler.exe.release.option.optimization.level.1352717991" name="Optimization Level" superClass="rcc.c.compiler.exe.release.option.optimization.level" valueType="enumerated"/>
+								<option id="rcc.c.compiler.exe.release.option.debugging.level.1514079223" name="Debug Level" superClass="rcc.c.compiler.exe.release.option.debugging.level" value="bcc.c.debugging.level.none" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.base.c.compiler.input.c.1710858689" superClass="cdt.managedbuild.tool.base.c.compiler.input.c"/>
+								<inputType id="cdt.managedbuild.tool.base.c.compiler.input.asm.910008383" superClass="cdt.managedbuild.tool.base.c.compiler.input.asm"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.rcc.c.linker.exe.release.592639097" name="SPARC RTEMS C Linker" superClass="cdt.managedbuild.tool.rcc.c.linker.exe.release">
+								<inputType id="cdt.managedbuild.tool.base.c.linker.input.1448840266" superClass="cdt.managedbuild.tool.base.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.rcc.cpp.linker.exe.release.1793843378" name="SPARC RTEMS C++ Linker" superClass="cdt.managedbuild.tool.rcc.cpp.linker.exe.release"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="prac5_2.cdt.managedbuild.target.rcc.exe.1844607321" name="Executable" projectType="cdt.managedbuild.target.rcc.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.rcc.exe.release.780507320;cdt.managedbuild.config.rcc.exe.release.780507320.;cdt.managedbuild.tool.rcc.c.compiler.exe.release.1301592907;cdt.managedbuild.tool.base.c.compiler.input.c.1710858689">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.rcc.exe.release.780507320;cdt.managedbuild.config.rcc.exe.release.780507320.;cdt.managedbuild.tool.rcc.c.compiler.exe.release.1301592907;cdt.managedbuild.tool.base.c.compiler.input.asm.910008383">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.rcc.exe.debug.532437978;cdt.managedbuild.config.rcc.exe.debug.532437978.;cdt.managedbuild.tool.rcc.c.compiler.exe.debug.471065559;cdt.managedbuild.tool.base.c.compiler.input.c.159352318">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.rcc.exe.debug.532437978;cdt.managedbuild.config.rcc.exe.debug.532437978.;cdt.managedbuild.tool.rcc.c.compiler.exe.debug.471065559;cdt.managedbuild.tool.base.c.compiler.input.asm.1998722146">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/prac5_2"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/prac5_2"/>
+		</configuration>
+	</storageModule>
+</cproject>
